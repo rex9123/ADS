@@ -114,12 +114,6 @@ elif option == "Stock Screener":
         for stock in stocks:
             st.write(f"- {stock}")
         
-        # Mocked stock scores for visualization
-        stock_scores = {'Stock A': 75, 'Stock B': 60, 'Stock C': 85}
-        fig, ax = plt.subplots()
-        sns.barplot(x=list(stock_scores.keys()), y=list(stock_scores.values()), ax=ax)
-        ax.set_ylabel("AI Score")
-        st.pyplot(fig)
 
 
 
